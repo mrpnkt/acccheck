@@ -1,4 +1,4 @@
-# acccheck.pl - Windows SMB Password Dictionary Attack Tool
+# Windows SMB Password Dictionary Attack Tool
 Copyright (C) 2008 Faisal Dean (Faiz)
 
 The tool is designed as a password dictionary attack tool that targets windows authentication via the SMB protocol. It is really a wrapper script around the 'smbclient' binary, and as a result is dependent on it for its execution.
