@@ -70,7 +70,7 @@
 #       acccheck.pl -t 10.10.10.1 -p password.txt                             #
 #                  This will attempt all password in 'password.txt' against   #
 #                  the 'administrator' account.                               #
-#       acccehck.pl -t 10.10.10.1 -u users.txt -p password.txt                #
+#       acccheck.pl -t 10.10.10.1 -u users.txt -p password.txt                #
 #                  This will attempt all of the passwords in 'password.txt'   #
 #                  against the users in 'users.txt'.                          #
 ###############################################################################
@@ -189,7 +189,7 @@ sub usage {
 	print "Attempt all passwords in 'password.txt' against the 'Administrator' account.\n";
 	print "	acccheck.pl -t 10.10.10.1 -P password.txt\n";
 	print "Attempt all password in 'password.txt' against all users in 'users.txt'.\n";
-	print "	acccehck.pl -t 10.10.10.1 -U users.txt -P password.txt\n";
+	print "	acccheck.pl -t 10.10.10.1 -U users.txt -P password.txt\n";
 	print "Attempt a single password against a single user.\n";
 	print "	acccheck.pl -t 10.10.10.1 -u administrator -p password\n", color("reset");
         exit();
